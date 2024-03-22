@@ -1,0 +1,11 @@
+{
+  "name": "personal-space-api-node",
+  "version": "1.0.0",
+  "description": "Projeto usando nodejs e express para criar API para web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Gustavo Rodrigues Oliveira",
+  "license": "ISC"
+}

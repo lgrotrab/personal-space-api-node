@@ -4,7 +4,8 @@
   "description": "Projeto usando nodejs e express para criar API para web.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
     "dev": "node src/server.js",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write ."
@@ -13,6 +14,7 @@
   "author": "Luis Gustavo Rodrigues Oliveira",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^29.7.0",
     "prettier": "^3.2.5"
   },
   "dependencies": {

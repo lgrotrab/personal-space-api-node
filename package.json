@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node src/server.js"
+    "dev": "node src/server.js",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "type": "module",
   "author": "Luis Gustavo Rodrigues Oliveira",
